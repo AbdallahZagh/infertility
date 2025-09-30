@@ -2,11 +2,12 @@ import React from 'react'
 // import Input from '../../../components/Input'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
-import Input from '../../../components/Input';
+import Input from '../../../Components/Input';
 
 const Form = () => {
 
           const { t, i18n } = useTranslation();
+
 
   return (
     <div className='w-[100%] h-[100%] -mt-12 flex justify-center items-center relative'>
@@ -15,9 +16,9 @@ const Form = () => {
     <div className='w-[45%] h-[85%] -mt-10 rounded-xl bg-white z-20 shadow flex justify-evenly items-center flex-col'>
         <div className='w-[85%] text-center'>
         <h1 className='text-3xl font-medium'>{t('login')}</h1>
-        <p className='font-thin'>{t('login1')}</p>
+        <p className='font-thin'>{t('login1')}</p> 
         </div>
-        <form className='w-[85%] h-40 flex justify-between items-center flex-col'>
+        <form  className='w-[85%] h-40 flex justify-between items-center flex-col'>
             <Input label={t('email')} name={'email'} type={'email'}/>
             <Input label={t('password')} name={'password'} type={'password'}/>
         </form>
@@ -29,7 +30,7 @@ const Form = () => {
             </div>
         </div>
     </div>
-    </div>
+    </div> 
 
   )
 }

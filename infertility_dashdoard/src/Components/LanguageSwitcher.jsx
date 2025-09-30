@@ -6,8 +6,8 @@ const LanguageSwitcher = ({ onLanguageChange }) => {
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
-        onLanguageChange(lng);
-    }
+        // onLanguageChange(lng);s
+    } 
 
     console.log(i18n.language)
   return (

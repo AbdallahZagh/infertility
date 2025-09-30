@@ -13,4 +13,4 @@ const Input = ({ label, name, type, value, onChange, edit = true }) => {
   )
 }
 
-export default Input
+export default Input 
