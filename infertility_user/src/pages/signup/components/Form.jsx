@@ -28,7 +28,7 @@ const Form = (
     <div className='w-[70%] h-[85%] -mt-10 rounded-xl bg-white z-20 shadow flex justify-evenly items-center flex-col'>
         <div className='w-[85%] text-center'>
         <p className='font-medium text-lg'>{t('login1')}</p>
-        </div>
+        </div> 
         <form onSubmit={handleSignup} className='w-[100%] h-[70%] grid grid-cols-3'>
             <Input label={t('email')} name={'email'} type={'email'} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
             <Input label={t('password')} name={'password'} type={'password'} value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })}/>

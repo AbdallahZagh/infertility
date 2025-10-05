@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
 
 const Form = ({handleLogin, handleChange}) => {
-
+ 
           const { t, i18n } = useTranslation();
 
   return (
@@ -28,7 +28,7 @@ const Form = ({handleLogin, handleChange}) => {
         </div>
         </form>
         
-    </div>
+    </div> 
     </div>
 
   )

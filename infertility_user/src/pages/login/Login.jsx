@@ -13,7 +13,7 @@ const Login = () => {
       console.log(i18n.language)
    
       const [formData, setFormData] = useState({
-    email: '',
+    email: '', 
     password: ''
   });
 
