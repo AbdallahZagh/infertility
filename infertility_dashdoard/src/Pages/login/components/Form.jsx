@@ -1,10 +1,12 @@
 import React from 'react'
 // import Input from '../../../components/Input'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
 import Input from '../../../Components/Input';
 
 const Form = ({handleLogin, handleChange}) => {
+
+  const nav = useNavigate()
 
           const { t, i18n } = useTranslation();
 
@@ -23,7 +25,12 @@ const Form = ({handleLogin, handleChange}) => {
             <Input label={t('password')} name={'password'} type={'password'} onChange={handleChange}/>
             <Link to='/forget-password' className='absolute right-8 bottom-[38%] font-thin hover:text-gray-700 transition-colors ease-in-out duration-150'>{t("forgot-password")}</Link>
             <div className='w-[85%] h-24 flex justify-center items-center flex-col relative'>
-            <button type='submit' className='w-[80%] h-12 bg-gradient-to-b from-[#E45E47] to-[#EB996E] text-white text-lg rounded-lg drop-shadow-md drop-shadow-[#E87F5D40] cursor-pointer hover:from-[#EB996E] hover:to-[#E45E47] transition-colors ease-in-out duration-300'>{t('login')}</button>
+            <button type='submit' className='w-[80%] h-12 bg-gradient-to-b from-[#E45E47] to-[#EB996E] text-white text-lg rounded-lg drop-shadow-md drop-shadow-[#E87F5D40] cursor-pointer hover:from-[#EB996E] hover:to-[#E45E47] transition-colors ease-in-out duration-300' onClick={() => {
+    // Set a timeout of 2000 milliseconds (2 seconds)
+    setTimeout(() => {
+      nav('/home');
+    }, 2000);
+  }}>{t('login')}</button>
             <div className={`w-[80%] flex justify-between ${i18n.language == 'en' ?  'flex-row-reverse' : ''}`}>
             {/* <p>{t('signup1')}<Link to='/signup' className='text-[#EB996E] hover:text-[#E45E47] transition-colors ease-in-out duration-100'>{t('signup')}</Link></p> */}
             </div>
