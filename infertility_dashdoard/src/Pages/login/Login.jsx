@@ -1,10 +1,29 @@
 import React, { useState } from 'react'
-
 import Form from './components/Form'
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../Components/LanguageSwitcher';
 import Header from './components/Header';
 import { Toaster, toast } from 'react-hot-toast';
+
+/* =====================================================================
+   API INTEGRATION (commented for demo)
+   ---------------------------------------------------------------------
+   This page is demoing with mock JSON data so it runs offline.
+
+   // import { fetchData, postData, updateData, deleteData } from '../../api/crudServices';
+   // Example:
+   // useEffect(() => {
+   //   const load = async () => {
+   //     try {
+   //       const res = await postData('/api/endpoint');
+   //       setState(res);
+   //     } catch (e) { console.error(e); }
+   //   };
+   //   load();
+   // }, []);
+
+   ===================================================================== */
+
 
 const Login = () => {
 

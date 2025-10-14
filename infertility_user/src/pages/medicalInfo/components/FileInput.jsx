@@ -33,7 +33,7 @@ const FileInput = () => {
   };
 
   return (
-    <div className='w-[450px] h-[210px] bg-white  flex justify-evenly items-center flex-col absolute top-[30%] left-[32.5%] rounded-2xl drop-shadow-md drop-shadow-[#6a6a6a] z-50'>
+    <div className='w-[450px] h-[210px] bg-white  flex justify-evenly items-center flex-col absolute top-[28%] left-[32.5%] rounded-2xl drop-shadow-md drop-shadow-[#6a6a6a] z-50'>
         <h2 className='text-lg font-medium'>{t("fileHead")}</h2>
       <label
         onDrop={handleDrop}

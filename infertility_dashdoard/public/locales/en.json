@@ -33,5 +33,7 @@
     "password-required": "Password is required!",
     "invalid-email": "Please enter a valid email address.",
     "password-length": "Password must be at least 6 characters.",
-    "success": "Login successful!"
+    "success": "Login successful!",
+     "unsupportedDevice" : "Unsupported Device",
+    "unsupported" : " For the best experience, please access this site on a laptop or desktop computer. Mobile phones and tablets are not supported."
 }

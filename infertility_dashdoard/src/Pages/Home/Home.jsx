@@ -10,6 +10,26 @@ import Appointment from './components/Appointment';
 import ConfirmationModal from '../../Components/ConfirmationModal';
 import AddAppointmentModal from './components/AddAppointmentModal';
 
+/* =====================================================================
+   API INTEGRATION (commented for demo)
+   ---------------------------------------------------------------------
+   This page is demoing with mock JSON data so it runs offline.
+
+   // import { fetchData, postData, updateData, deleteData } from '../../api/crudServices';
+   // Example:
+   // useEffect(() => {
+   //   const load = async () => {
+   //     try {
+   //       const res = await fetchData('/api/endpoint');
+   //       setState(res);
+   //     } catch (e) { console.error(e); }
+   //   };
+   //   load();
+   // }, []);
+
+   ===================================================================== */
+
+
 const Home = () => {
     const { i18n } = useTranslation();
 

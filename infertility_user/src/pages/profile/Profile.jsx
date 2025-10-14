@@ -5,6 +5,26 @@ import SideBar from '../../components/SideBar';
 import Header from '../../components/Header';
 import Form from './components/Form'
 
+/* =====================================================================
+   API INTEGRATION (commented for demo)
+   ---------------------------------------------------------------------
+   This page is demoing with mock JSON data so it runs offline.
+
+   // import { fetchData, postData, updateData, deleteData } from '../../api/crudServices';
+   // Example:
+   // useEffect(() => {
+   //   const load = async () => {
+   //     try {
+   //       const res = await fetchData('/api/endpoint');
+   //       const res = await postData('/api/endpoint');
+   //       setState(res);
+   //     } catch (e) { console.error(e); }
+   //   };
+   //   load();
+   // }, []);
+
+   ===================================================================== */
+
 const Profile = () => {
       const { i18n } = useTranslation();
 

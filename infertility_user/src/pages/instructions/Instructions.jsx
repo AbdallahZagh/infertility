@@ -11,6 +11,25 @@ import sportImg from '../../assets/sport.png'
 import { Link } from 'react-router-dom';
 import Card from './components/Card';
 
+/* =====================================================================
+   API INTEGRATION (commented for demo)
+   ---------------------------------------------------------------------
+   This page is demoing with mock JSON data so it runs offline.
+
+   // import { fetchData, postData, updateData, deleteData } from '../../api/crudServices';
+   // Example:
+   // useEffect(() => {
+   //   const load = async () => {
+   //     try {
+   //       const res = await fetchData('/api/endpoint');
+   //       setState(res);
+   //     } catch (e) { console.error(e); }
+   //   };
+   //   load();
+   // }, []);
+
+   ===================================================================== */
+
 
 const Instructions = () => {
   const { i18n, t } = useTranslation();

@@ -31,5 +31,7 @@
     "fileHead" : "Required tests",
     "file1" : "Upload your PDF",
     "file2" : "Click to select or drag and drop",
-    "questionHolder" : "Your answer ..."
+    "questionHolder" : "Your answer ...",
+    "unsupportedDevice" : "Unsupported Device",
+    "unsupported" : " For the best experience, please access this site on a laptop or desktop computer. Mobile phones and tablets are not supported."
   }
