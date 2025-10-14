@@ -3,7 +3,10 @@
 A full-featured clinic management dashboard with user system and appointment scheduling.
 
 ## 🚀 Demo
-Clivk login to get in
+
+Click login to get in
+
+
 👉 [Live Preview user](infertility-user.netlify.app)
 👉 [Live Preview admin](infertility-dashboard.netlify.app)
 
