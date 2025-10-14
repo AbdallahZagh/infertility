@@ -5,8 +5,6 @@ A full-featured clinic management dashboard with user system and appointment sch
 ## 🚀 Demo
 👉 [Live Preview](https://abdallahzagh.github.io/infertility-clinic)
 
-**Demo Login:**  
-`demo@clinic.com` / `123456`
 
 ## 🧩 Features
 - Dashboard with analytics
