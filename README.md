@@ -3,7 +3,9 @@
 A full-featured clinic management dashboard with user system and appointment scheduling.
 
 ## 🚀 Demo
-👉 [Live Preview](https://abdallahzagh.github.io/infertility-clinic)
+Clivk login to get in
+👉 [Live Preview user](infertility-user.netlify.app)
+👉 [Live Preview admin](infertility-dashboard.netlify.app)
 
 
 ## 🧩 Features
